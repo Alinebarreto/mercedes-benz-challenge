@@ -10,7 +10,7 @@ ${FILTER_COLOR}                         class:category-filter-row-headline
 ${F_PRE_OWNED}                          //wb-tab[@name='0'][contains(@id,'tab')][contains(.,'Pre-Owned')]
 ${F_COLOR}                              //p[@class='category-filter-row-headline__text'][contains(.,'Colour')]
 ${F_CAR_COLLOR}                         //span[@class='dcp-multi-select-dropdown-frame__label'][contains(.,'Colour')]
-${F_COLLOR1}                            (//A[@class='dcp-filter-pill dcp-multi-select-dropdown-card-pill-wrapper__pill dcp-filter-pill--full-width'])[177]
+${F_COLLOR1}                            (//a[@class='dcp-filter-pill dcp-multi-select-dropdown-card-pill-wrapper__pill dcp-filter-pill--full-width'][contains(.,'BRILLANTBLUE')])[1]                           
 ${F_COLLOR1_SELECTED}                    //div[@data-test-id='dcp-selected-filters-widget-tag'][contains(.,'BRILLANTBLUE')]
 ${F_PRICE_DESCENDING}                   //option[@value='price-desc-ucos'][contains(.,'Price (descending)')]
 ${F_EXPLORE}                            //span[contains(.,'Explore')]
